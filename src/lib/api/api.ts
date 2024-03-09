@@ -1,7 +1,7 @@
 import md5 from "md5";
 
 const API_PASSWORD = "Valantis";
-const API_URL = "http://api.valantis.store:40000/";
+const API_URL = "https://api.valantis.store:41000/";
 
 //Генерация строки аунтентификации под текущей дате
 const generateAuthString = (password: string) => {
